@@ -1,0 +1,39 @@
+.header{
+  margin-top: 60px;
+&__nav{
+  display: flex;
+}
+  &__watch{
+    width: 15%;
+    min-width: 244px;
+    border-radius: 8px 0 0 8px;
+    cursor: pointer;
+    display: flex;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    column-gap: 4px;
+    background: #FFFFFF;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+
+  }
+  &__list{
+    display: flex;
+    border-radius: 0 8px 8px 0;
+    height: 60px;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    column-gap: 54px;
+    background: #444444;
+  }
+  &__item{
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+  }
+}

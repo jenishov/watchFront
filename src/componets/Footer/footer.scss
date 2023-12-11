@@ -1,0 +1,23 @@
+.footer{
+padding-top: 19px;
+  &__content{
+    background: #FFFFFF;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.01);
+    border-radius: 8px;
+    padding: 30px 67px 49px;
+    &-info{
+      display: flex;
+      column-gap: 50px;
+    }
+    &-icons{
+      color: #1890FF;
+      font-size: 30px;
+      margin-top: 21px;
+      display: flex;
+      column-gap: 30px;
+    }
+    &-tel{
+      margin: 16px 0 8px;
+    }
+  }
+}
