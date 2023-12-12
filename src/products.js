@@ -89,5 +89,11 @@ export const products =[
         title: 'Appletv',
         price: 179
     },
+    {
+        id: 15,
+        image: Appletv,
+        title: 'Appletv',
+        price: 179
+    },
 
 ]

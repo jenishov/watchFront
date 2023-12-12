@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from "../../axios";
 import {toast} from "react-toastify";
+import pageError from "./page-error.png"
 
 
 const Products = ({getAllProducts,item,setBasket,basket}) => {
@@ -14,7 +15,7 @@ const Products = ({getAllProducts,item,setBasket,basket}) => {
     }
     return (
         <div className="check__card">
-            <img className='check__card-img' src={item.image} alt=""/>
+            <img className='check__card-img' src={item.image} alt= {item.title}/>
             <h3 className='title'>{item.title}</h3>
             <p className='check__card-price subtitle'>{item.price > 0 ? `$${item.price}.00` :'Free*' }</p>
             <div className='check__card-btns'>
